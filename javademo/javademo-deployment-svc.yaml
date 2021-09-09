@@ -14,7 +14,7 @@ spec:
         app: javademo
     spec:
       containers:
-      - image: registry.cn-shanghai.aliyuncs.com/tengfeiwu/javademo:replace
+      - image: registry.cn-shanghai.aliyuncs.com/tengfeiwu/javademo:dev_20210909083204_fe2c092_6
         name: javademo
         ports:
         - containerPort: 8080
